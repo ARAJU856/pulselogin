@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E64F1FAD6839BA4ED105282 /* Pods_pulselogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFC0BC80258B778B709D13D /* Pods_pulselogin.framework */; };
+		4017AF25B550824E1849E30A /* Pods_pulseloginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54D71D2685FD157E57F4B57 /* Pods_pulseloginUITests.framework */; };
+		822E51572372CF0B00DB0A48 /* ForgotPasswordpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822E51562372CF0B00DB0A48 /* ForgotPasswordpage.swift */; };
+		822E51592372E45800DB0A48 /* NavigationControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822E51582372E45800DB0A48 /* NavigationControll.swift */; };
+		824D0509237198C9005BBACC /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D0508237198C9005BBACC /* SignUpForm.swift */; };
 		82917CAC23716AE400ECCE44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82917CAB23716AE400ECCE44 /* AppDelegate.swift */; };
 		82917CAE23716AE400ECCE44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82917CAD23716AE400ECCE44 /* ViewController.swift */; };
 		82917CB123716AE400ECCE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82917CAF23716AE400ECCE44 /* Main.storyboard */; };
@@ -14,6 +19,8 @@
 		82917CB623716AE800ECCE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82917CB423716AE800ECCE44 /* LaunchScreen.storyboard */; };
 		82917CC123716AE800ECCE44 /* pulseloginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82917CC023716AE800ECCE44 /* pulseloginTests.swift */; };
 		82917CCC23716AE800ECCE44 /* pulseloginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82917CCB23716AE800ECCE44 /* pulseloginUITests.swift */; };
+		8291840023757076001F3656 /* ViewControllerhomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829183FF23757076001F3656 /* ViewControllerhomepage.swift */; };
+		D258E117A37A2C8C7F2F69F7 /* Pods_pulseloginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90875CA2EE46F0E190AA2DA5 /* Pods_pulseloginTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AFD1F76CF3FFF268150A635 /* Pods-pulseloginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pulseloginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pulseloginUITests/Pods-pulseloginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6548F260F8A0389A1CCA7D56 /* Pods-pulseloginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pulseloginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pulseloginTests/Pods-pulseloginTests.release.xcconfig"; sourceTree = "<group>"; };
+		71F6C671FFF708EEF3D7BB7E /* Pods-pulselogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pulselogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pulselogin/Pods-pulselogin.debug.xcconfig"; sourceTree = "<group>"; };
+		764FAC51BD9B39F52C64051D /* Pods-pulseloginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pulseloginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pulseloginTests/Pods-pulseloginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B27C447CBCBE9DE899BCA6C /* Pods-pulseloginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pulseloginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pulseloginUITests/Pods-pulseloginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		822E51562372CF0B00DB0A48 /* ForgotPasswordpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordpage.swift; sourceTree = "<group>"; };
+		822E51582372E45800DB0A48 /* NavigationControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControll.swift; sourceTree = "<group>"; };
+		824D0508237198C9005BBACC /* SignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
 		82917CA823716AE400ECCE44 /* pulselogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pulselogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82917CAB23716AE400ECCE44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82917CAD23716AE400ECCE44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,11 @@
 		82917CC723716AE800ECCE44 /* pulseloginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pulseloginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82917CCB23716AE800ECCE44 /* pulseloginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pulseloginUITests.swift; sourceTree = "<group>"; };
 		82917CCD23716AE800ECCE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829183FF23757076001F3656 /* ViewControllerhomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerhomepage.swift; sourceTree = "<group>"; };
+		90875CA2EE46F0E190AA2DA5 /* Pods_pulseloginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pulseloginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54D71D2685FD157E57F4B57 /* Pods_pulseloginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pulseloginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFC0BC80258B778B709D13D /* Pods_pulselogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pulselogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EEFD79A7BE19C18BCE039C /* Pods-pulselogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pulselogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-pulselogin/Pods-pulselogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E64F1FAD6839BA4ED105282 /* Pods_pulselogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D258E117A37A2C8C7F2F69F7 /* Pods_pulseloginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4017AF25B550824E1849E30A /* Pods_pulseloginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05547C7D7C0BB4726CDD9B30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F6C671FFF708EEF3D7BB7E /* Pods-pulselogin.debug.xcconfig */,
+				D5EEFD79A7BE19C18BCE039C /* Pods-pulselogin.release.xcconfig */,
+				764FAC51BD9B39F52C64051D /* Pods-pulseloginTests.debug.xcconfig */,
+				6548F260F8A0389A1CCA7D56 /* Pods-pulseloginTests.release.xcconfig */,
+				4AFD1F76CF3FFF268150A635 /* Pods-pulseloginUITests.debug.xcconfig */,
+				7B27C447CBCBE9DE899BCA6C /* Pods-pulseloginUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		82917C9F23716AE400ECCE44 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				82917CBF23716AE800ECCE44 /* pulseloginTests */,
 				82917CCA23716AE800ECCE44 /* pulseloginUITests */,
 				82917CA923716AE400ECCE44 /* Products */,
+				05547C7D7C0BB4726CDD9B30 /* Pods */,
+				C7073664F9309998F077DD3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +137,14 @@
 			children = (
 				82917CAB23716AE400ECCE44 /* AppDelegate.swift */,
 				82917CAD23716AE400ECCE44 /* ViewController.swift */,
+				824D0508237198C9005BBACC /* SignUpForm.swift */,
+				822E51562372CF0B00DB0A48 /* ForgotPasswordpage.swift */,
 				82917CAF23716AE400ECCE44 /* Main.storyboard */,
 				82917CB223716AE800ECCE44 /* Assets.xcassets */,
 				82917CB423716AE800ECCE44 /* LaunchScreen.storyboard */,
 				82917CB723716AE800ECCE44 /* Info.plist */,
+				822E51582372E45800DB0A48 /* NavigationControll.swift */,
+				829183FF23757076001F3656 /* ViewControllerhomepage.swift */,
 			);
 			path = pulselogin;
 			sourceTree = "<group>";
@@ -125,6 +167,16 @@
 			path = pulseloginUITests;
 			sourceTree = "<group>";
 		};
+		C7073664F9309998F077DD3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC0BC80258B778B709D13D /* Pods_pulselogin.framework */,
+				90875CA2EE46F0E190AA2DA5 /* Pods_pulseloginTests.framework */,
+				B54D71D2685FD157E57F4B57 /* Pods_pulseloginUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82917CD023716AE800ECCE44 /* Build configuration list for PBXNativeTarget "pulselogin" */;
 			buildPhases = (
+				D1E32C83BDA80800873112B7 /* [CP] Check Pods Manifest.lock */,
 				82917CA423716AE400ECCE44 /* Sources */,
 				82917CA523716AE400ECCE44 /* Frameworks */,
 				82917CA623716AE400ECCE44 /* Resources */,
@@ -149,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82917CD323716AE800ECCE44 /* Build configuration list for PBXNativeTarget "pulseloginTests" */;
 			buildPhases = (
+				408610DE303464F9CBFD474F /* [CP] Check Pods Manifest.lock */,
 				82917CB823716AE800ECCE44 /* Sources */,
 				82917CB923716AE800ECCE44 /* Frameworks */,
 				82917CBA23716AE800ECCE44 /* Resources */,
@@ -167,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82917CD623716AE800ECCE44 /* Build configuration list for PBXNativeTarget "pulseloginUITests" */;
 			buildPhases = (
+				4667961D3C7780F67D52D3EF /* [CP] Check Pods Manifest.lock */,
 				82917CC323716AE800ECCE44 /* Sources */,
 				82917CC423716AE800ECCE44 /* Frameworks */,
 				82917CC523716AE800ECCE44 /* Resources */,
@@ -251,12 +306,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		408610DE303464F9CBFD474F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pulseloginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4667961D3C7780F67D52D3EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pulseloginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E32C83BDA80800873112B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pulselogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82917CA423716AE400ECCE44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822E51592372E45800DB0A48 /* NavigationControll.swift in Sources */,
+				822E51572372CF0B00DB0A48 /* ForgotPasswordpage.swift in Sources */,
+				824D0509237198C9005BBACC /* SignUpForm.swift in Sources */,
 				82917CAE23716AE400ECCE44 /* ViewController.swift in Sources */,
+				8291840023757076001F3656 /* ViewControllerhomepage.swift in Sources */,
 				82917CAC23716AE400ECCE44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +546,7 @@
 		};
 		82917CD123716AE800ECCE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F6C671FFF708EEF3D7BB7E /* Pods-pulselogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +564,7 @@
 		};
 		82917CD223716AE800ECCE44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EEFD79A7BE19C18BCE039C /* Pods-pulselogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +582,7 @@
 		};
 		82917CD423716AE800ECCE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764FAC51BD9B39F52C64051D /* Pods-pulseloginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +603,7 @@
 		};
 		82917CD523716AE800ECCE44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6548F260F8A0389A1CCA7D56 /* Pods-pulseloginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +624,7 @@
 		};
 		82917CD723716AE800ECCE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFD1F76CF3FFF268150A635 /* Pods-pulseloginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +644,7 @@
 		};
 		82917CD823716AE800ECCE44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B27C447CBCBE9DE899BCA6C /* Pods-pulseloginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
